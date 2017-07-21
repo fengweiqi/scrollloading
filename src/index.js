@@ -1,10 +1,4 @@
-class ScrollLoad{
-
-	constructor(){
-			
-			
-	}
-
+export default {
 	onscroll(callback){
 			window.addEventListener('scroll',function(){
 				var scrollTop = document.body.scrollTop;
@@ -15,9 +9,7 @@ class ScrollLoad{
 					callback();
 				};
 			});
-
 	}
 }
-export default ScrollLoad
 
 
