@@ -1,0 +1,36 @@
+{
+  "name": "scrollloading",
+  "version": "1.0.0",
+  "description": "scroll load,下拉加载",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengweiqi/scrollloading.git"
+  },
+  "keywords": [
+    "scrollload",
+    "下拉加载",
+    "scroll",
+    "load"
+  ],
+  "author": "fengweiqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fengweiqi/scrollloading/issues"
+  },
+  "homepage": "https://github.com/fengweiqi/scrollloading#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "jsxobj": "^1.1.0",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^2.29.0"
+  }
+}
